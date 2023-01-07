@@ -17,7 +17,9 @@ html {
     max-width: 1240px;
     margin: 0px auto 0px auto;
 }
-
+section{
+    padding: 100px 0;
+}
 /* ------------- */
 /* Header */
 /* ------------ */
@@ -73,7 +75,41 @@ h1{
     font-weight: 300;
     word-spacing: 5px;
 }
+h2{
+    font-size: 180%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2::after{
+    display: block;
+    content: '';
+    height: 2px;
+    width: 100px;
+    background-color: #10ac84;
+    margin: 40px auto 0 auto;
+}
+h3{
+    font-size: 110%;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
 
+/* ------------- */
+/* Paraghraphs */
+/* ------------ */
+.text{
+    line-height: 145%;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto 50px auto;
+}
+.card p {
+    font-size: 80%;
+    line-height: 1.5;
+    width: 90%;
+
+}
 /* ------------- */
 /* Buttons */
 /* ------------ */
@@ -108,4 +144,21 @@ h1{
 .btn-border:active{
     background-color: #0d8d6c;
     color: #fff;
+}
+/* ------------- */
+/* section features */
+/* ------------ */
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 21%;
+}
+.card ion-icon {
+    width: 60px;
+    height: 60px;
+    color: #10ac84;
+    margin-bottom: 12px;
 }
