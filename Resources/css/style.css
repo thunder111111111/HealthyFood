@@ -35,10 +35,10 @@ header{
     transform: translate(-50%,-50%);
 }
 .logo{
-    width: 60px;
+    width: 80px;
     height: auto;
     float: left;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .main-nav{
     float: right;
